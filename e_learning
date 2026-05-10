@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+        <title>E-learning Website</title>
+    </head>
+<body>
+    <div class="nav-container">
+        <header>
+            <a href="homepage"><img src="Img/My Logo.png" alt=""></a>
+
+            <nav>
+                <ul>
+                    <li><a href="homepage">Work</a></li>
+                    <li><a href="homepage">Skills</a></li>
+                    <li><a href="./Anthony Knight Resume.pdf" target="_blank">Resume</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="social-header">
+            <ul>
+                <li><a href="mailto: anthonyrknight6@gmail.com"><img src="Img/email.svg" alt="Email"></a></li>
+                <li><a href="https://twitter.com/That_1Knight" target="_blank"><img src="Img/twitter.svg" alt="Twitter"></a></li>
+                <li><a href="https://www.instagram.com/anthonyrknight6/" target="_blank"><img src="Img/instagram.svg" alt="Instagram"></a></li>
+                <li><a href="https://www.behance.net/anthonyrkn7fe0" target="_blank"><img src="Img/behance.svg"  alt="Behance"></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="project-head-Design">
+            <div class="center">
+            <img src="E-Learning/img/logo.png" alt="" class="e-learning-logo">
+            <h3>E-Learning</h3>
+            </div>
+            <img src="E-Learning/e-learning_home.png" alt="">
+            <div class="e-learning-3c">
+                <p class="project-p"> <span class="bold">Duration:</span> Jan. 2022-April 2022</p>
+                <p class="project-p"> <span class="bold">Team/Role:</span> Designer/Developer team of one</p>
+                <p class="project-p"> <span class="bold">Category:</span> Learning Website</p>
+            </div>
+        </div>
+        <div class="description">
+                <div class="inner-desc">
+                <p class="project-p">Brief</p>
+                <h1 class="project-h">Create a website that encourages people to purchase an online course and make customers or site visitors feel like it isn't some boring learning bootcamp.</h1>
+            </div>
+        </div>
+        <div class="description">
+            <div class="inner-desc">
+                <h1 class="project-h">Scope Of Work</h1>
+                <p class="project-p">While designing the website, I have passed different steps and phases from choosing our typography and colors that reflect E-Design brand Identity and make the user feel trusted and reliable to test and define the final version.</p>
+
+                <img src="E-Learning/img/The_Process@2x.png" alt="">
+
+            
+        </div>
+        </div>
+        <div class="description">
+            <div class="inner-desc">
+            
+            <h1 class="project-h">Research</h1>
+            <p class="project-p">Its time to take a deep dive into seeing the problems other users have run into or if they ran into the same issues I had.</p>
+        </div>
+    </div>
+        <div class="description">
+            <div class="inner-desc">
+                <h4>Interviewing</h4>
+                <p class="project-p">I started this interviewing process by asking those with already accounts on competitor sites and asking what keeps them on the site and what the competitors can do to do better.</p>
+            </div>
+                <div class="colorbox-group">
+                    <p class="clearbox">"I like how the website never makes it feel like a lesson and how I go at my own pace."</p>
+                    <p class="clearbox">"I always felt invited and like I wasn't getting scammed"</p>
+                    <p class="clearbox">"The websites are very clear on how much I would be paying and what services they provide"</p>
+                    <p class="clearbox">"What I like about the website I use is that there no advertisement to spend more money."</p>
+                    <p class="clearbox">"Classes are organized amazingly."</p>
+                </div>
+            
+        </div>
+        <div class="description">
+            <div class="inner-desc">
+            
+            <h1 class="project-h">What I learned</h1>
+            <p class="project-p">After interviewing, I have came to realize that site visitors want a clear and fun experoe with education websites. They want a clear message on what the website offers and how it can improve their skills.
+            </p>
+        </div>
+    </div>
+        <div class="description">
+            <div class="inner-desc">
+            
+            <h1 class="project-h">Design</h1>
+            <p class="project-p">After completing the research I have came to the conclusion that a majority of the audience that use educational websites want to learn but also not be bored. I will need to take into consideration how much information the owners wants on the page and how to make the website inviting.</p>
+        </div>
+    </div>
+    <div class="description">
+        <div class="inner-desc">
+            <h4>Style Guide</h4>
+            <p class="project-p">Using the reviews and questions I asked people, I started to create ideas and features the app could have that was an issue people had with competitors. At this point I was writing down whatever ideas came to mind and didn't organize them until the next step.</p>
+        
+            
+                <img src="E-Learning/img/Style Guide@2x.png" alt="">
+        </div>    
+        
+    </div>
+    <div class="description">
+        <div class="inner-desc">
+            <h4>Low Fidelity Wireframing</h4>
+            <p class="project-p">After communicating with the sites owner, I organized the content they wanted on each page. I started brainstorming ideas on how I wanted they layout to be and how I want the information to be displayed.</p>
+        </div>
+            <div class="colorbox-group">
+                <img src="E-Learning/img/Untitled-1@2x.png" alt="">
+            </div>
+        
+    </div>
+    <div class="description">
+        <div class="inner-desc">
+            <h4>High Fidelity Wireframing The Homepage</h4>
+            <p class="project-p">Before I created more of the project I wanted to experiment how the homepage would do with the information and wireframing I did.</p>
+        </div>
+            <div class="colorbox-group">
+                <img src="E-Learning/img/Wireframing@2x.png" alt="">
+            </div>
+        
+    </div>
+
+    <div class="two-col">
+        <img src="E-Learning/img/Mockup@2x.png" class="two-col" alt="">
+    
+        <div class="cofie-desc">
+            <h3>Feedback From Homepage</h3>
+            <p class="project-p"> <span class="bold">"There's not an easy way to find what the page selling"</span></p>
+            <p class="project-p"> <span class="bold">"The site doesn't look as fun as I'd like it too"</span></p>
+            <p class="project-p"> <span class="bold">"The second section feels like an advertisement"</span></p>
+           
+    
+    
+        </div>
+        <img src="" id="gif" alt="">
+    </div>
+
+<div class="description">
+    <div class="inner-desc">
+        <h4>Creating Resolutions From Feedback</h4>
+        <p class="project-p">Unfortunately, the first attempt at a homepage didn't go as expected and I've gotten a lot of negative feedback. I went back to the drawing board and discussed with the site owner on the steps moving forward. I am going to try a different approach to the page and redesigning from the ground up.</p>
+    </div>
+    
+</div>
+<div class="description">
+    <div class="inner-desc">
+        <h4>Adding Illustrations</h4>
+        <p class="project-p">I've decided to add illustrations to the page due to the page not being inviting enough. The quote "The site doesn't look as fun as I'd like it too" really inspired me to take an approach with this. Also, by lat other competitors sites I believe this would be an appropriate action to take.</p>
+    </div>
+        <div class="colorbox-group">
+            <img src="E-Learning/img/Possible Illustrations@2x.png" alt="">
+        </div>
+    
+</div>
+
+<div class="description">
+    <div class="inner-desc">
+    
+    <h1 class="project-h">What I Learned</h1>
+    <p class="project-p">This project has taught me a good amount about customer service and how they would like to prepare their food or drinks. I also learned how to look for what other competitors were lacking in. I believe what helped the most was the actual reviews I pulled from google because people don't usually like to talk down the local coffee shops and the reviews are unfiltered</p>
+</div>
+</div>
+
+<div class="two-col">
+    <img src="E-Learning/img/Web 1920 – 1@2x.jpg" alt="">
+    <div class="right-side">
+    <h1 class="project-h">"There's not an easy way to find what the page selling"</h1>
+    <p class="project-p">With this feedback, I went back to the header and create
+        a call to action button so the customer can understand what the page is trying to sell.</p>
+    </div>
+</div>
+<div class="two-col">
+    <img src="E-Learning/img/web-2@2x.jpg" alt="">
+    <div class="right-side">
+    <h1 class="project-h">"The second section feels like an advertisement"</h1>
+    <p class="project-p">For the second section, I took out the book cover and replaced it with an illustration so the customer can get an idea of what signing up would be like. I also added some more information on the product below it so it won't feel as bland.</p>
+    </div>
+</div>
+
+<div class="description">
+    <div class="inner-desc">
+    
+    <h1 class="project-h">Key Takeaways</h1>
+    <p class="project-p">I've came to the realization that I should take a second to get a better understanding of what is considered inviting to customers. After taking into consideration more of my style guide and how the customer would feel I created a better homepage after all.</p>
+    <!-- <img src="E-Learning/img/New Website@2x.jpg" alt="" style="width: 1000%;"> -->
+    </div>
+    <!-- <img src="E-Learning/img/New Website@2x.jpg" alt="" style="max-width: 1440px; width: 200%"> -->
+
+</div>
+
+</div>
+
+<div class="bottom-nav">
+    <a href="E-Learning-web/index.html" target="_blank"><p>Visit Website</p></a>
+    <a href="homepage"><p>Homepage</p></a>
+</div>
+
+<footer>
+    <p>Contact Me</p>
+    <div class="socials">
+        <ul>
+            <li><a href="https://www.instagram.com/anthonyrknight6/" target="_blank"><img src="Img/instagram-white.svg" alt="Instagram"></a></li>
+            <li><a href="https://www.behance.net/anthonyrkn7fe0" target="_blank"><img src="Img/behance-white.svg"  alt="Behance"></a></li>
+            <li><a href="mailto: anthonyrknight6@gmail.com"><img src="Img/email-ehite.svg" alt=""></a></li>
+        </ul>
+    </div>
+</footer>
+
+</div>
+</body>
+</html>
