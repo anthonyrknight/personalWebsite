@@ -95,7 +95,7 @@ header ul a {
       -ms-flex-align: center;
           align-items: center;
   font-weight: bold;
-  color: #1572EB;
+  /* color: #1572EB; */
   font-size: 1.5rem;
 }
 
