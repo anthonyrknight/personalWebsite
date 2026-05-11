@@ -1,0 +1,416 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+  list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+   scroll-behavior: auto;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Start */
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.leaf {
+    display: none;
+}
+
+header {
+    
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+    height: 90vh;
+}
+
+button {
+    margin-top: 4rem;
+    background-color: #E51B4C;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+}
+
+.heading-info h1 {
+    margin: 2rem;
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    padding: 0%;
+}
+
+li {
+    margin: 0 0.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+nav img {
+    width: 10%;
+}
+
+.learn {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.learn img {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+h2 {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+h3 {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+p {
+    margin-top: 1rem;
+    
+}
+
+.more-learn {
+    margin-top: 3rem;
+}
+
+.more-learn img {
+    max-width: 60%;
+}
+
+.learn-anywhere {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.at-pace {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.improve {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.improve button {
+    margin-top: 2rem;
+}
+
+.bold {
+    font-weight: bold;
+}
+footer {
+    text-align: center;
+    background-color: #111111;
+    color: white;
+    margin-top: 8rem;
+    padding: 3rem 0;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 1rem;
+}
+
+#message {
+    padding-bottom: 6rem;
+}
+
+#submit {
+    background-color: #E51B4C;
+    color: white;
+    padding: 1rem 4rem;
+}
+
+footer a {
+    color: white;
+}
+footer ul {
+    display: grid;
+    justify-content: center;
+}
+
+.last_logo {
+    margin: auto;
+    max-width: 140px;
+}
+
+.footer-icons {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: left;
+    grid-gap: 6rem;
+}
+.footer-icons img {
+    width: 10%;
+}
+
+
+@media only screen and (min-width: 800px) {
+
+
+    header {
+        align-items: center;
+    }
+    header img {
+        max-width: 640px;
+    }
+
+    .learn-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    } */
+
+    .learn-info img {
+        width: 60%;
+    } 
+    .learn img {
+        width: 20%;
+    }
+
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+    .container {
+
+        margin: auto;
+    }
+
+    nav {
+        margin-top: 3rem;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr );
+    }
+    nav img {
+        width: 100px;
+    }
+
+    nav ul {
+        grid-column-start:2 ;
+        grid-column-end: 4 ;
+        justify-content: center;
+    }
+    
+    .container {
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    header {
+        margin-top: 4rem;
+        height: auto;
+        position: relative;
+    }
+
+    .leaf {
+        max-height: 986px;
+        display: block;
+        position: absolute;
+        z-index: -1;
+    }
+
+    .left {
+        left: -30%;
+        bottom: -50%;
+    }
+
+    .right {
+        right: -30%;
+        bottom: -50%;
+    }
+
+
+    header {
+        flex-direction: row;
+    } 
+    .learn-info {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 8rem;
+        margin-top: 20rem;
+    }
+    .learn-info img {
+        grid-column-start: 1;
+        grid-row-start: 1;
+    }
+    .learn {
+        text-align: none;
+        display: block;
+        grid-column-start: 2;
+    }
+
+    .learn img {
+        margin: 0;
+        max-width: 92px;
+    }
+
+
+    .learn h2, .learn h3 {
+        text-align: left;
+    }
+
+    button {
+        padding: 1rem 4rem;
+    }
+
+    .more-learn {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 10rem;
+    }
+
+    .more-learn img {
+        max-height: 230px;
+    }
+    .learn-anywhere {
+        justify-content: space-between;
+        margin-bottom: 0;
+    }
+    .at-pace {
+        justify-content: space-between;
+    }
+
+    .improve {
+        margin-top: 10rem;
+    }
+
+    .quotes {
+        background-color: white;
+        position: relative;
+        z-index: 1;
+        display: grid;
+        grid-template-columns: 11% 26% 26% 26% 11%;
+        border: 1px black solid;
+        grid-template-rows: 0.5fr 1fr 0.5fr;
+    }
+    .quotes img {
+        max-width: 80px;
+    }
+    .karen {
+        grid-row-start: 2;
+        grid-column-start: 2;
+    }
+    .ken {
+        grid-row-start: 2;
+        grid-column-start: 3;
+    }
+    .kevin {
+        grid-row-start: 2;
+        grid-column-start: 4;
+    }
+    .bottom-quote {
+        margin: 1rem;
+        grid-row-start: 3;
+        grid-column-start: 5;
+    }
+    .top-quote {
+        margin: 1rem;
+    }
+    .footer-container {
+        max-width: 1200px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}

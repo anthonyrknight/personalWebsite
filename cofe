@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+        <title>E-Learning</title>
+    </head>
+<body>
+    <div class="nav-container">
+        <header>
+            <a href="index.html"><img src="Img/My Logo.png" alt=""></a>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">Work</a></li>
+                    <li><a href="index.html">Skills</a></li>
+                    <li><a href="./Anthony Knight Resume.pdf" target="_blank">Resume</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="social-header">
+            <ul>
+                <li><a href="mailto: anthonyrknight6@gmail.com"><img src="Img/email.svg" alt="Email"></a></li>
+                <li><a href="https://twitter.com/That_1Knight" target="_blank"><img src="Img/twitter.svg" alt="Twitter"></a></li>
+                <li><a href="https://www.instagram.com/anthonyrknight6/" target="_blank"><img src="Img/instagram.svg" alt="Instagram"></a></li>
+                <li><a href="https://www.behance.net/anthonyrkn7fe0" target="_blank"><img src="Img/behance.svg"  alt="Behance"></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container">
+        <header class="project-head">
+            <img src="Cofe-img/iPhone XS Mockup.png" alt="">
+            <div class="cofie-desc">
+                <h1 class="project-h">Cofie</h1>
+                <p class="project-p">An app that allows people to order, favorite, and talk about coffee in a simple, unchallenging way.</p>
+                <p class="project-p"> <span class="bold">Duration:</span> Nov. 2020 - Jan 2021</p>
+                <p class="project-p"> <span class="bold">Team/Role:</span> Design Team Of One</p>
+                <p class="project-p"> <span class="bold">Category:</span> Passion Project Case Study</p>
+
+
+            </div>
+        </header>
+        <div class="description">
+                <div class="inner-desc">
+                <p class="project-p">Brief</p>
+                <h1 class="project-h">Create a coffee app for a new coffee shop in town that offers the fastest delivery service for coffee lovers who crave an extra punch of caffeine in their coffee!</h1>
+            </div>
+        </div>
+        <div class="description">
+            <div class="inner-desc">
+            <p class="project-p">Problem</p>
+            <h1 class="project-h">How often have I ran into problems ordering coffee? What kind of issues have others had?</h1>
+            <p class="project-p">This coffee delivery app is going to be a passion project of mine because of the amount of issues I personally have ran into and I've heard others complain about. I honestly believe I have a caffeine addiction just like most Americans and however I can get that cup of joe into my hand easier would make my day so much better. Below is a brief overview of the process</p>
+            </div>
+            <div class="colorbox-group">
+                <div class="colorbox-g">
+                    <h3>Discover The Problem</h3>
+                    <div class="innerbox">
+                        <p>Who's the audience?</p>
+                        <p>What problems do they 
+                            have?</p>
+                        <P>How often do they run 
+                            into these problems?</P>
+                    </div>
+                    <img src="Cofe-img/Icon ionic-md-sad.png" alt="sad face">
+                </div>
+                <div class="colorbox-b">
+                    <h3>Research</h3>
+                    <div class="innerbox">
+                        <p>Competitive Analysis</p>
+                        <p>Interviews</p>
+                        <P>Surveys</P>
+                    </div>
+                    <img src="Cofe-img/Icon map-search.svg" alt="sad face">
+                </div>
+                <div class="colorbox-p">
+                    <h3>Ideate</h3>
+                    <div class="innerbox">
+                        <p>Brainstorm Ideas</p>
+                        <p>App Mapping</p>
+                    </div>
+                    <img src="Cofe-img/Icon awesome-lightbulb.svg" alt="sad face">
+                </div>
+                <div class="colorbox-dg">
+                    <h3>Design</h3>
+                    <div class="innerbox">
+                        <p>Wireframe</p>
+                        <p>Prototype</p>
+                        <P>Style Guide</P>
+                    </div>
+                    <img src="Cofe-img/Icon awesome-smile.svg" alt="sad face">
+                </div>
+                <div class="colorbox-r">
+                    <h3>Test</h3>
+                    <div class="innerbox">
+                        <p>Assets Tradeoffs</p>
+                        <p>User Testing</p>
+                        <P>User Interviews</P>
+                    </div>
+                    <img src="Cofe-img/Icon ionic-ios-paper.svg" alt="sad face">
+                </div>
+            </div>
+        </div>
+        <div class="description">
+            <div class="inner-desc">
+            
+            <h1 class="project-h">Research</h1>
+            <p class="project-p">Its time to take a deep dive into seeing the problems other users have run into or if they ran into the same issues I had.</p>
+        </div>
+    </div>
+        <div class="description">
+            <div class="inner-desc">
+                <h4>Interviewing</h4>
+                <p class="project-p">I began by asking those who are coffee lovers and also have a caffeine addiction. I believe its best to ask those who use the app the most and see what their general responses are and see where their frustrations are at.</p>
+            </div>
+                <div class="colorbox-group">
+                    <p class="clearbox">"I'd like to see how much caffeine each coffee contains to 
+                        gauge my caffeine intake."</p>
+                    <p class="clearbox">"I'd like to adjust the size of the coffee, and quantity of 
+                        espresso to customize it for me"</p>
+                    <p class="clearbox">"I'd like to adjust milk/dairy alternative since I'm lactose intolerant"</p>
+                    <p class="clearbox">"I'd like to save my coffees to my favorites for easier access"</p>
+                    <p class="clearbox">"I'd like to see a photo of the coffees available in the app so I can set my expectations"</p>
+                </div>
+            
+        </div>
+        <div class="description">
+            <div class="inner-desc">
+                <h4>Looking at reviews</h4>
+                <p class="project-p">I looked into the competitors to see where their customers frustrations and any other problems their customers have. 
+                    Doing this allowed me to see the pain that others experienced and make design decisions based off people's needs and what they are missing from the coffee places they already go to and possibily convert them.</p>
+            </div>
+                <div class="colorbox-group">
+                    <img src="Cofe-img/Group 28.jpg" alt="">
+                </div>
+            
+        </div>
+        <div class="description">
+            <div class="inner-desc">
+            
+            <h1 class="project-h">What I learned</h1>
+            <p class="project-p">Looking through reviews and asking people what type of experience they want from the app it seems like they sure care about time and how their coffee is made. This information was actually very helpful because now I understand that usually people like to know how long their wait is and have issues if it's too long without any acknowledgement.
+                I also see where competitors are lacking and I can use this information in the app so we can have something over the competitors.
+            </p>
+        </div>
+    </div>
+        <div class="description">
+            <div class="inner-desc">
+            
+            <h1 class="project-h">Ideation</h1>
+            <p class="project-p">Its time to reflect on the information I gathered and come up with ideas and solutions to the problems users have had.</p>
+        </div>
+    </div>
+    <div class="description">
+        <div class="inner-desc">
+            <h4>Brainstorm Ideas</h4>
+            <p class="project-p">Using the reviews and questions I asked people, I started to create ideas and features the app could have that was an issue people had with competitors. At this point I was writing down whatever ideas came to mind and didn't organize them until the next step.</p>
+        
+            
+                <img src="Cofe-img/Group 85.png" alt="">
+        </div>    
+        
+    </div>
+    <div class="description">
+        <div class="inner-desc">
+            <h4>App Mapping</h4>
+            <p class="project-p">I then started organizing the ideas given to me and determined which areas of the app they were best placed in for the best interaction. I also wanted to start thinking about the journey the user will go through after each interaction.</p>
+        </div>
+            <div class="colorbox-group">
+                <img src="Cofe-img/Group 86.png" alt="">
+            </div>
+        
+    </div>
+    <div class="description">
+        <div class="inner-desc">
+        
+        <h1 class="project-h">Design</h1>
+        <p class="project-p">Looking at the research I have done I came to realize the main features this app needs if it stands a chance with its competitors. It seems like having an open communication with the driver/barista and a clear indication on the time are very important features and something I will take into consideration in the design.</p>
+    </div>
+</div>
+<div class="description">
+    <div class="inner-desc">
+        <h4>Low Fidelity Wireframing</h4>
+        <p class="project-p">After debating what information would be the best place where I then started having trouble how the information would best be displayed. Deciding on which information would best be displayed where and which would take the visual hierarchy.</p>
+    </div>
+        <div class="colorbox-group">
+            <img src="Cofe-img/Web 1920 – 3.png" alt="">
+        </div>
+    
+</div>
+<div class="description">
+    <div class="inner-desc">
+        <h4>Style Guide</h4>
+        <p class="project-p">I created a style guide I thought best suited for coffee lovers. A lot of the colors I picked are already being used in other shops or colors people are used to. I also wanted a style where it makes you feel inviting and cool colors.</p>
+    </div>
+        <div class="colorbox-group">
+            <img src="Cofe-img/Web 1920 – 4.png" alt="">
+        </div>
+    
+</div>
+<div class="description">
+    <div class="inner-desc">
+        <h4>Icons</h4>
+    </div>
+        <div class="colorbox-group">
+            <img src="Cofe-img/Web 1920 – 1.png" alt="">
+        </div>
+    
+</div>
+
+<div class="description">
+    <div class="inner-desc">
+        <h4>Mapping The Users Guide To A Purchase</h4>
+        <p class="project-p">The less clicks a user has to make to make a purchase the better. I mapped a clear and simple way the user goes from the home screen to purchasing a coffee so there wouldn't be any confusion or a reason not to buy one.</p>
+    </div>
+        <div class="colorbox-group">
+            <img src="Cofe-img/Web 1920 – 2.jpg" alt="">
+        </div>
+    
+</div>
+<header class="project-head">
+    <img src="Cofe-img/Order Tracking.png" alt="">
+    <div class="cofie-desc">
+        <h1 class="project-h">Key Features</h1>
+        <p class="project-p">From the research it's clear that customers need to know how long the coffee will take to get to the user and have open information about the driver. Not showing where the driver and not having easy access to contact them seemed to be a majority of the problem people had.</p>
+       
+
+
+    </div>
+</header>
+<header class="project-head">
+    
+    <div class="cofie-desc">
+        <p class="project-p"> <span class="bold">User Story 1</span> "I'd like to adjust milk/dairy alternative since I'm lactose intolerant"</p>
+        <p class="project-p"> <span class="bold">User Story 2</span> "I'd like to see a photo of the coffees available in the app so I can set my expectations"</p>
+        <p class="project-p"> <span class="bold">User Story 3</span> "Sloooooooww slooooooowww sloooooww"</p>
+       
+
+
+    </div>
+    <img src="Cofe-img/cofie-final.gif" id="gif" alt="">
+</header>
+
+<div class="description">
+    <div class="inner-desc">
+    
+    <h1 class="project-h">What I Learned</h1>
+    <p class="project-p">This project has taught me a good amount about customer service and how they would like to prepare their food or drinks. I also learned how to look for what other competitors were lacking in. I believe what helped the most was the actual reviews I pulled from google because people don't usually like to talk down the local coffee shops and the reviews are unfiltered</p>
+</div>
+</div>
+
+<div class="description">
+    <div class="inner-desc">
+    
+    <h1 class="project-h">What I would do differently</h1>
+    <p class="project-p">To be honest, I spent too much time on trying to do different type of designs and interaction with the app. This only confused users and made them press on buttons they didn't want to touch or go to pages they didn't intend to go to. Don't fix what isn't broken.</p>
+</div>
+</div>
+
+<div class="bottom-nav">
+    <a href="index.html"><p>Homepage</p></a>
+</div>
+
+<footer>
+    <p>Contact Me</p>
+    <div class="socials">
+        <ul>
+            <li><a href="https://www.instagram.com/anthonyrknight6/" target="_blank"><img src="Img/instagram-white.svg" alt="Instagram"></a></li>
+            <li><a href="https://www.behance.net/anthonyrkn7fe0" target="_blank"><img src="Img/behance-white.svg"  alt="Behance"></a></li>
+            <li><a href="mailto: anthonyrknight6@gmail.com"><img src="Img/email-ehite.svg" alt=""></a></li>
+        </ul>
+    </div>
+</footer>
+
+</div>
+</body>
+</html>

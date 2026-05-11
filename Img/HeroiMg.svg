@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="544" height="552" viewBox="0 0 544 552">
+  <g id="HeroiMg" transform="translate(-960 -300)">
+    <g id="Group_2" data-name="Group 2">
+      <rect id="Rectangle_7" data-name="Rectangle 7" width="138" height="138" rx="17" transform="translate(1228 300)" fill="#142d34"/>
+      <rect id="Rectangle_8" data-name="Rectangle 8" width="138" height="138" rx="17" transform="translate(1090 438)" fill="#1572eb"/>
+      <rect id="Rectangle_9" data-name="Rectangle 9" width="138" height="138" rx="17" transform="translate(1366 438)" fill="#1572eb" opacity="0.5"/>
+      <rect id="Rectangle_10" data-name="Rectangle 10" width="138" height="138" rx="17" transform="translate(1228 576)" fill="#f22613"/>
+      <rect id="Rectangle_11" data-name="Rectangle 11" width="138" height="138" rx="17" transform="translate(960 576)" fill="#89b8f5"/>
+      <rect id="Rectangle_12" data-name="Rectangle 12" width="138" height="138" rx="17" transform="translate(1098 714)" fill="#fff"/>
+    </g>
+    <circle id="Ellipse_2" data-name="Ellipse 2" cx="68.5" cy="68.5" r="68.5" transform="translate(1228 439)" fill="#1572eb"/>
+    <circle id="Ellipse_3" data-name="Ellipse 3" cx="68.5" cy="68.5" r="68.5" transform="translate(1095 574)" fill="#f22613"/>
+  </g>
+</svg>
