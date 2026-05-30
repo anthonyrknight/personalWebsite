@@ -3,6 +3,11 @@ html {
   overflow-x: hidden;
 }
 
+video {
+  display: grid;
+  place-items: center;
+}
+
 body {
   height: 100vh;
   margin: 0;
@@ -14,6 +19,13 @@ body h1 {
 }
 body p {
   font-size: 1rem;
+}
+
+.languagedUsed {
+  padding-left: 10px;
+}
+.languagedUsed img {
+  max-width: 60px;
 }
 
 .image-marquee {
@@ -41,7 +53,7 @@ body p {
     transform: translateX(100vw);
   }
   to {
-    transform: translateX(-100%);
+    transform: translateX(-50%);
   }
 }
 ul {
@@ -166,7 +178,6 @@ section {
 
 .skills-container {
   display: grid;
-  grid-template-columns: auto auto auto;
   place-content: center;
 }
 
@@ -356,6 +367,7 @@ button:hover {
   .featured {
     text-align: left;
     display: grid;
+    align-items: center;
     grid-template-columns: 40% auto;
   }
   .projects {
@@ -363,8 +375,13 @@ button:hover {
     grid-template-columns: auto;
   }
   .left {
-    display: grid;
     place-content: center;
+  }
+  .left img {
+    max-width: 40px;
+  }
+  .left {
+    margin: 40px 20px;
   }
   .right {
     margin-left: 2em;
@@ -492,7 +509,7 @@ button:hover {
   }
   .skills-container ul {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 1rem;
   }
   header {
@@ -543,6 +560,7 @@ button:hover {
 .project-head-Design {
   display: grid;
   grid-template-rows: auto;
+  place-items: center;
   margin: auto;
   margin-top: 2rem;
   max-width: 1480px;

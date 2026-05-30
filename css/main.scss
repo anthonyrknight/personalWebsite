@@ -8,6 +8,10 @@ html {
     scroll-behavior: smooth;
     overflow-x: hidden;
 }
+video{
+    display: grid;
+    place-items: center;
+}
 
 body {
     height: 100vh;
@@ -24,6 +28,14 @@ body {
     }
 }
 
+.languagedUsed{
+    padding-left: 10px;
+        img{
+           max-width: 60px; 
+        }
+
+        
+    }
 // Rotating images start
 .image-marquee {
   width: 100%;
@@ -53,7 +65,7 @@ body {
   }
 
   to {
-    transform: translateX(-100%);
+    transform: translateX(-50%);
   }
 }
 // End of carosol hopefully
@@ -201,7 +213,6 @@ section {
     }
     .skills-container {
         display: grid;
-        grid-template-columns: auto auto auto;
         place-content: center;
     }
     .transition2 {
@@ -412,17 +423,22 @@ button:hover {
     .featured {
         text-align: left;
         display: grid;
+        align-items: center;
         grid-template-columns: 40% auto;
  
     }
+ 
 
     .projects {
         display: grid;
         grid-template-columns: auto;
     }
     .left {
-        display: grid;
         place-content: center;
+        img {
+            max-width: 40px;
+        }
+        margin: 40px 20px;
     }
 
     .right {
@@ -581,7 +597,7 @@ button:hover {
     
         .skills-container ul {
             display: grid;
-            grid-template-columns: auto auto auto;
+            grid-template-columns: repeat(3, 1fr);
             grid-gap: 1rem;
         }
     
@@ -645,6 +661,7 @@ button:hover {
     .project-head-Design {
         display: grid;
         grid-template-rows: auto;
+        place-items: center;
         margin: auto;
         margin-top: 2rem;
         max-width: 1480px;
