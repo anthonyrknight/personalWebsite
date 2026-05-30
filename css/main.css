@@ -16,6 +16,34 @@ body p {
   font-size: 1rem;
 }
 
+.image-marquee {
+  width: 100%;
+  overflow: hidden;
+  padding: 40px 0;
+}
+
+.image-track {
+  display: flex;
+  gap: 24px;
+  width: max-content;
+  animation: slide-left 70s linear infinite;
+}
+.image-track img {
+  width: 260px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 12px;
+  flex-shrink: 0;
+}
+
+@keyframes slide-left {
+  from {
+    transform: translateX(100vw);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
 ul {
   list-style-type: none;
   padding: 0;
@@ -92,18 +120,8 @@ section {
 
 .featured {
   position: relative;
-}
-
-.featured::before {
-  content: "";
-  position: absolute;
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  background: #F3B7B1;
-  top: 0;
-  left: 0;
-  z-index: -1;
+  border: 2px solid black;
+  border-radius: 5%;
 }
 
 .subtitle {
@@ -148,6 +166,7 @@ section {
 
 .skills-container {
   display: grid;
+  grid-template-columns: auto auto auto;
   place-content: center;
 }
 
@@ -253,11 +272,6 @@ footer ul {
   width: 100%;
 }
 
-.projects {
-  display: grid;
-  grid-template-columns: auto auto;
-}
-
 .container {
   max-width: 100%;
 }
@@ -343,6 +357,10 @@ button:hover {
     text-align: left;
     display: grid;
     grid-template-columns: 40% auto;
+  }
+  .projects {
+    display: grid;
+    grid-template-columns: auto;
   }
   .left {
     display: grid;
@@ -454,6 +472,9 @@ button:hover {
     margin-top: 15%;
     width: 100%;
   }
+  .projects {
+    grid-template-columns: auto auto;
+  }
 }
 @media only screen and (min-width: 1250px) {
   .two-col {
@@ -471,7 +492,7 @@ button:hover {
   }
   .skills-container ul {
     display: grid;
-    grid-template-columns: repeat(3, auto);
+    grid-template-columns: auto auto auto;
     grid-gap: 1rem;
   }
   header {
