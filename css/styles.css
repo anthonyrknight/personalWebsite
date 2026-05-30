@@ -117,7 +117,7 @@ section {
 .featured-title {
   color: black;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 2rem;
   display: block;
 }
 
@@ -253,11 +253,6 @@ footer ul {
   width: 100%;
 }
 
-.projects {
-  display: grid;
-  grid-template-columns: auto auto;
-}
-
 .container {
   max-width: 100%;
 }
@@ -317,7 +312,7 @@ footer ul {
 }
 
 button {
-  margin: 1rem 1rem;
+  margin-bottom: 1rem;
   padding: 1rem 1.5rem;
   border: none;
   background-color: #1572EB;
@@ -548,4 +543,4 @@ img.e-learning-logo {
   align-items: center;
 }
 
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=styles.css.map */
