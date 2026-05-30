@@ -342,7 +342,7 @@ footer ul {
 }
 
 button {
-  margin: 1rem 1rem;
+  margin: 1rem 0;
   padding: 1rem 1.5rem;
   border: none;
   background-color: #1572EB;
@@ -535,9 +535,6 @@ button:hover {
   }
   .social-header {
     padding: 2em 20em 2em 0;
-  }
-  section {
-    padding: 6em 20em 4em 20em;
   }
   .hero .content {
     padding: 9em 20em 6em 20em;
