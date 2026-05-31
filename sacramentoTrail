@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+        <title>E-learning Website</title>
+    </head>
+<body>
+    <div class="nav-container">
+        <header>
+            <a href="homepage"><img src="Img/My Logo.png" alt=""></a>
+
+            <nav>
+                <ul>
+                    <li><a href="homepage">Work</a></li>
+                    <li><a href="homepage">Skills</a></li>
+                    <li><a href="./Anthony Knight Resume.pdf" target="_blank">Resume</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="social-header">
+            <ul>
+                <li><a href="mailto: anthonyrknight6@gmail.com"><img src="Img/email.svg" alt="Email"></a></li>
+                <li><a href="https://twitter.com/That_1Knight" target="_blank"><img src="Img/twitter.svg" alt="Twitter"></a></li>
+                <li><a href="https://www.instagram.com/anthonyrknight6/" target="_blank"><img src="Img/instagram.svg" alt="Instagram"></a></li>
+                <li><a href="https://www.behance.net/anthonyrkn7fe0" target="_blank"><img src="Img/behance.svg"  alt="Behance"></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="project-head-Design">
+            <div class="center">
+            <!-- Start of project page -->
+            <img src="Img/sacramentoTrail/gameLogo.png" alt="">
+            <h3>Sacramento Trail</h3>
+            <p>A recreation of the organ trial I made in assembly.</p>
+            </div>
+
+
+        <video width="640" height="360" controls autoplay muted loop>
+        <!-- MP4 format -->
+            <source src="Img/sacramentoTrail/finalOrganTrail.mp4" type="video/mp4">
+        
+           <!-- Fallback text for unsupported browsers -->
+         Your browser does not support the HTML5 video tag.
+        </video>
+
+            <div class="e-learning-3c">
+                <p class="project-p"> <span class="bold">Language Used:</span> Assembly</p>
+
+            </div>
+        </div>
+        <div class="description">
+                <div class="inner-desc">
+                <h1>Code ▼</h1>
+            </div>
+        </div>
+        <div class="description">
+            <div class="inner-desc">
+                <h1 class="project-h">Reserving The Memory</h1>
+
+                <img src="Img/sacramentoTrail/pic1.png" alt="">
+                <img src="Img/sacramentoTrail/pic2.png" alt="">
+
+            
+        </div>
+        </div>
+
+        <div class="description">
+            <div class="inner-desc">
+                <h1 class="project-h">Game Logic</h1>
+
+                <img src="Img/sacramentoTrail/pic3.png" alt="">
+                <img src="Img/sacramentoTrail/pic4.png" alt="">
+                <img src="Img/sacramentoTrail/pic5.png" alt="">
+                <img src="Img/sacramentoTrail/pic6.png" alt="">
+
+
+
+            
+        </div>
+        </div>
+
+        
+
+
+<div class="bottom-nav">
+    <a href="homepage"><p>Homepage</p></a>
+</div>
+
+<footer>
+    <p>Contact Me</p>
+    <div class="socials">
+        <ul>
+            <li><a href="https://www.instagram.com/anthonyrknight6/" target="_blank"><img src="Img/instagram-white.svg" alt="Instagram"></a></li>
+            <li><a href="https://www.behance.net/anthonyrkn7fe0" target="_blank"><img src="Img/behance-white.svg"  alt="Behance"></a></li>
+            <li><a href="mailto: anthonyrknight6@gmail.com"><img src="Img/email-ehite.svg" alt=""></a></li>
+        </ul>
+    </div>
+</footer>
+
+</div>
+</body>
+</html>
