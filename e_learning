@@ -27,9 +27,8 @@
         </header>
         <div class="social-header">
             <ul>
-                <li><a href="mailto: anthonyrknight6@gmail.com"><img src="Img/email.svg" alt="Email"></a></li>
-                <li><a href="https://twitter.com/That_1Knight" target="_blank"><img src="Img/twitter.svg" alt="Twitter"></a></li>
-                <li><a href="https://www.instagram.com/anthonyrknight6/" target="_blank"><img src="Img/instagram.svg" alt="Instagram"></a></li>
+               <li><a href="mailto: anthonyrknight6@gmail.com"><img src="Img/email.svg" alt="Email"></a></li>
+                <li><a href="https://github.com/anthonyrknight" target="_blank"><img src="Img/github-round-svgrepo-com.svg"  alt="github"></a></li>
                 <li><a href="https://www.behance.net/anthonyrkn7fe0" target="_blank"><img src="Img/behance.svg"  alt="Behance"></a></li>
             </ul>
         </div>
