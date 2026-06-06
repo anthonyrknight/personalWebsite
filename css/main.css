@@ -10,6 +10,13 @@ video {
   max-width: 640px;
 }
 
+.content p {
+  font-color: white;
+}
+.content p a {
+  color: #FFFFFF;
+}
+
 body {
   height: 100vh;
   margin: 0;
@@ -493,6 +500,14 @@ button:hover {
   }
   .projects {
     grid-template-columns: auto auto;
+  }
+  .aboutMeMain .pictures {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 2rem;
+  }
+  .aboutMeMain .pictures img {
+    max-height: 600px;
   }
 }
 @media only screen and (min-width: 1250px) {

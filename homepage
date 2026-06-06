@@ -80,7 +80,9 @@
 
                 <img src="Img/downPointer.svg" alt="Down Pointer">
 
-                <p>Meet Anthony Knight <br><a href="https://github.com/anthonyrknight/personalWebsite" target="_blank">This Websites Open Repository</a></p>
+                <p><a href="aboutMe">Meet Anthony Robert Knight</a> 
+                    <br>
+                    <a href="https://github.com/anthonyrknight/personalWebsite" target="_blank">This Websites Open Repository</a></p>
                 
 
             </div>
@@ -293,7 +295,7 @@
 
     <section class="studentShowcase">
 
-        <H1>Taught 60+ Children Foundational Coding Skills</H1>
+        <H1>Taught 60+ Students Foundational Coding Skills</H1>
         <p>This a showcase of my students video games they created coding in python through  <a href="https://pixelpad.io/">PixelPAD</a> with my guideance.</p>
 
     <!-- The Coder School Showcase -->
