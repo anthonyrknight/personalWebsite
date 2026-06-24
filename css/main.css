@@ -507,7 +507,7 @@ button:hover {
     grid-gap: 2rem;
   }
   .aboutMeMain .pictures img {
-    max-height: 600px;
+    max-width: 100%;
   }
 }
 @media only screen and (min-width: 1250px) {
