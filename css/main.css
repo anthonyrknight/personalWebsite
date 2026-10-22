@@ -30,6 +30,10 @@ body p {
   font-size: 1rem;
 }
 
+.logo {
+  max-width: 800px;
+}
+
 .languagedUsed {
   padding-left: 10px;
 }
@@ -55,6 +59,11 @@ body p {
   object-fit: cover;
   border-radius: 12px;
   flex-shrink: 0;
+}
+
+.Warning {
+  color: rgb(242, 38, 19);
+  font-weight: bolder;
 }
 
 @keyframes slide-left {
@@ -293,7 +302,7 @@ footer ul {
 }
 
 .container {
-  max-width: 100%;
+  width: 100%;
 }
 .container .colorbox-g, .container .colorbox-b, .container .colorbox-p, .container .colorbox-dg, .container .colorbox-r {
   background: #00715D;
@@ -348,6 +357,7 @@ footer ul {
 }
 .container img {
   width: 100%;
+  max-width: 800px;
 }
 
 button {
@@ -578,6 +588,9 @@ button:hover {
   margin: auto;
   margin-top: 2rem;
   max-width: 1480px;
+}
+.project-head-Design .logo {
+  max-width: 800px;
 }
 
 .project-head-Design img {

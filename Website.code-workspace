@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "WebsiteAstroUpdate/deeply-dwarf"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Website"
+	}
+}

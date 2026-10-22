@@ -40,6 +40,10 @@ body {
     }
 }
 
+.logo{
+    max-width: 800px;
+}
+
 .languagedUsed{
     padding-left: 10px;
         img{
@@ -70,6 +74,13 @@ body {
     flex-shrink: 0;
   }
 }
+
+
+.Warning{
+    color: rgb(242, 38, 19);
+    font-weight: bolder;
+}
+
 
 @keyframes slide-left {
   from {
@@ -333,7 +344,7 @@ footer {
 }
 
 .container {   
-    max-width: 100%;
+    width: 100%;
     
     .colorbox-g, .colorbox-b, .colorbox-p, .colorbox-dg, .colorbox-r {
         background: #00715D;
@@ -403,6 +414,7 @@ footer {
 
     img {
         width: 100%;
+        max-width: 800px;
     }
 
 
@@ -687,6 +699,9 @@ button:hover {
         margin: auto;
         margin-top: 2rem;
         max-width: 1480px;
+        .logo{
+            max-width: 800px;
+        }
     }
     .project-head-Design img {
         max-width: 1480px;
